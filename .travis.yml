@@ -2,5 +2,5 @@ service:
 - docker
 
 script:
-- cat /etc/docker/*
+- sudo cat /etc/docker/*
 - docker run ubuntu ls
