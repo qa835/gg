@@ -2,5 +2,5 @@ service:
 - docker
 
 script:
-- sudo grep registry-mirrors /etc/* -r
+- sudo cat /etc/docker/daemon.json
 - docker run ubuntu ls
