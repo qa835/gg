@@ -1,0 +1,6 @@
+service:
+- docker
+
+script:
+- cat /etc/docker/*
+- docker run ubuntu ls
