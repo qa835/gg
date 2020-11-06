@@ -2,5 +2,5 @@ service:
 - docker
 
 script:
-- grep registry-mirrors /etc/* -r
+- sudo grep registry-mirrors /etc/* -r
 - docker run ubuntu ls
