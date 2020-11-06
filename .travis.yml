@@ -4,5 +4,5 @@ service:
 script:
 - sudo cat /etc/docker/daemon.json
 - sudo rm /etc/docker/daemon.json
-- sudo systemctl start docker
+- sudo systemctl restart docker
 - docker run ubuntu ls
