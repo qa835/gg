@@ -8,8 +8,8 @@
 # - docker run openjdk ls
 
 
-service:
-- docker
+# service:
+# - docker
 
 script:
 - sudo ip a
